@@ -94,3 +94,12 @@ I2C, düşük hızlı senkron seri iletişim sağlayan bir protokoldür. Birden 
 Bu projede belirtilen çözüm adımları doğru bir şekilde uygulandığında ve gerçek uygulama testi analizlerdeki gibi gittiğinde müşterinin tüm sorunu ortadan kaldırılacaktır. Bununla birlikte, sistem uzaktan başlatma ve durdurma gibi ileriye dönük gelişmelere açıktır. Tamamen manuel olarak çalışan su pompası bu entegre ile birlikte durdurma işlemi kontrol edilebilir hale gelmiştir. İleriye dönük eklemeler ve güncellemelerle sistem insan gücünü daha az harcayacak duruma getirilebilir.
 
 Müşteriye eklenen sensörlere ve kartlara zarar vermemesi, afaki koşullarda bulundurmaması için gerekli uyarılar yapılmalıdır. Projede kullanılan akü, kablo gibi zaman içerisinde yıpranan ve ömrünü tüketen materyaller hakkında düzenli bakım yaptırması belirtilmelidir.
+
+Projede kullanılacak kartın diyagrami aşağıdadır:
+
+![Main Diyagram](documents/images/Staj-2024-Main.png)
+
+Projenin çalışma prensibini açıklayan diyagram aşağıdadır:
+
+![System Diyagram](documents/images/Staj-2024-System.png)
+
