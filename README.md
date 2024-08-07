@@ -59,7 +59,38 @@ Projede kullanılacak malzemeler, hizmet ve işçilik maliyeti gibi değişkenle
 
 Tahmini bütçe: HESAPLANACAK
 
-## 7. Sonuç ve Öneriler
+
+## 7. Kullanılacak Bileşenler
+
+- 1x ADC
+- 1x Röle
+- 1x MCU (STM32F103RC)
+- 1x GSM Modülü (SIM800L HZ-MG2608-C1A-MK-02)
+- Yakıt Kesici (UNOX 24V DC Normalde Açık Solenoid Valf)
+- 1x Basınç Sensörü (DFRobot SEN0257)
+- 3x LED
+- 3x Buton
+
+### MCU İçin Gerekli Pinler
+- 1x I2C
+- 1x SPI
+- 4x UART
+
+### Bileşenlerin Kullanım Sebepleri
+
+Proje diyagramında görüldüğü gibi, sistemin çalışma prensibi istenmeyen durum oluştuğunda motorun durdurularak pompanın kapanmasıdır. Kullandığımız basınç sensörü 0-16 bar aralığında olup düzenli ve sık aralıklarla suyun basıncını ölçecektir. Su kesildiğinde hat içerisinde basınç düşecek ve basıncın düşmesi MCU tarafından algılanacak ve valfe bağlı röle tetiklenecektir. Rölenin tetiklenmesi sonucunda normalde açık olan özelliğe sahip valf kapanacak ve dizel motora yakıt akışı duracaktır. Bu sayede dizel motor stop ederek santifüj'ün yanmasını engelleyecektir. MCU röleyi tetiklerken aynı zamanda GSM modülüyle haberleşme sağlayarak müşterimizin telefonuna bildirim SMS'i gitmesini sağlayacaktır.
+### UART Protokolü Nedir?
+UART, asenkron seri iletişim için yaygın olarak kullanılan bir protokoldür. İki cihaz arasında veri alışverişini sağlayan bir iletişim birimidir. Haberleşme mesafesi oldukça kısa olduğu için aynı kart üzerinde bulunan bileşenler ile haberleşmede kullanılır. Bu projede
+### SPI Protokolü Nedir?
+SPI, MCU ile çevre bileşenler arasında iletişim için kullanılır. Diğer protokollere göre oldukça hızlı bir iletişim sağlar. SPI protokolünde tek bir bileşen ile haberleşme sağlanabilir. Eğer birden fazla bileşenle haberleşme yapılacaksa daha fazla iletişim hattı oluşturulması gereklidir. Bu da pin kullanımını artıracaktır. Ayrıca SPI MCU üzerinde 4 pin ile haberleşme sağladığı için pin kullanımı açısından savurgandır.
+### I2C Protokolü Nedir?
+I2C, düşük hızlı senkron seri iletişim sağlayan bir protokoldür. Birden fazla bileşenle haberleşme sağlanması gereken ve hıza ihtiyaç duyulmayan projelerde kullanılır. Tek bir hat üzerinden birden fazla bileşen ile iletişim sağlanabilir, bundan dolayı pin kullanımında oldukça tasarrufludur. Ayrıca MCU üzerinde yalnızca 2 adet pine ihtiyaç duyar.
+
+Özetle, haberleşmelerde projenin gereksinimlerine uygun protokoller seçilmektedir. 
+
+
+
+## 8. Sonuç ve Öneriler
 Bu projede belirtilen çözüm adımları doğru bir şekilde uygulandığında ve gerçek uygulama testi analizlerdeki gibi gittiğinde müşterinin tüm sorunu ortadan kaldırılacaktır. Bununla birlikte, sistem uzaktan başlatma ve durdurma gibi ileriye dönük gelişmelere açıktır. Tamamen manuel olarak çalışan su pompası bu entegre ile birlikte durdurma işlemi kontrol edilebilir hale gelmiştir. İleriye dönük eklemeler ve güncellemelerle sistem insan gücünü daha az harcayacak duruma getirilebilir.
 
 Müşteriye eklenen sensörlere ve kartlara zarar vermemesi, afaki koşullarda bulundurmaması için gerekli uyarılar yapılmalıdır. Projede kullanılan akü, kablo gibi zaman içerisinde yıpranan ve ömrünü tüketen materyaller hakkında düzenli bakım yaptırması belirtilmelidir.
