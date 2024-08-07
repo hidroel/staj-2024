@@ -79,18 +79,17 @@ Tahmini bütçe: HESAPLANACAK
 ### Bileşenlerin Kullanım Sebepleri
 
 Proje diyagramında görüldüğü gibi, sistemin çalışma prensibi istenmeyen durum oluştuğunda motorun durdurularak pompanın kapanmasıdır. Kullandığımız basınç sensörü 0-16 bar aralığında olup düzenli ve sık aralıklarla suyun basıncını ölçecektir. Su kesildiğinde hat içerisinde basınç düşecek ve basıncın düşmesi MCU tarafından algılanacak ve valfe bağlı röle tetiklenecektir. Rölenin tetiklenmesi sonucunda normalde açık olan özelliğe sahip valf kapanacak ve dizel motora yakıt akışı duracaktır. Bu sayede dizel motor stop ederek santifüj'ün yanmasını engelleyecektir. MCU röleyi tetiklerken aynı zamanda GSM modülüyle haberleşme sağlayarak müşterimizin telefonuna bildirim SMS'i gitmesini sağlayacaktır.
-### UART Protokolü Nedir?
-UART, asenkron seri iletişim için yaygın olarak kullanılan bir protokoldür. İki cihaz arasında veri alışverişini sağlayan bir iletişim birimidir. Haberleşme mesafesi oldukça kısa olduğu için aynı kart üzerinde bulunan bileşenler ile haberleşmede kullanılır. Bu projede
-### SPI Protokolü Nedir?
-SPI, MCU ile çevre bileşenler arasında iletişim için kullanılır. Diğer protokollere göre oldukça hızlı bir iletişim sağlar. SPI protokolünde tek bir bileşen ile haberleşme sağlanabilir. Eğer birden fazla bileşenle haberleşme yapılacaksa daha fazla iletişim hattı oluşturulması gereklidir. Bu da pin kullanımını artıracaktır. Ayrıca SPI MCU üzerinde 4 pin ile haberleşme sağladığı için pin kullanımı açısından savurgandır.
-### I2C Protokolü Nedir?
-I2C, düşük hızlı senkron seri iletişim sağlayan bir protokoldür. Birden fazla bileşenle haberleşme sağlanması gereken ve hıza ihtiyaç duyulmayan projelerde kullanılır. Tek bir hat üzerinden birden fazla bileşen ile iletişim sağlanabilir, bundan dolayı pin kullanımında oldukça tasarrufludur. Ayrıca MCU üzerinde yalnızca 2 adet pine ihtiyaç duyar.
 
-Özetle, haberleşmelerde projenin gereksinimlerine uygun protokoller seçilmektedir. 
+## 8. Projenin Genel Çalışma Prensibi
 
+Projenin sözel açıklaması şu şekildedir:
 
+MCu'yu barındıran kart ve diğer tüm ek bileşenler dizel motorun aküsünden beslenecektir. Motora ait olan kontak akü ile modüller arasında bağlantıyı sağlamaktadır. Dizel motorun yakıt tankı ile motor arasında bulunan yakıt hortumuna solenoid valf eklenecektir. Bu valf projenin maliyetini düşürmek amacıyla normalde kapalı olarak belirlenmiştir. Solenoid valfin Vin bağlantısı MCU üzerindeki rölenin NC bacağına bağlıdır. Rölenin Common bacağı ise aküden güç almaktadır. Bu sayede, ek modülün herhangi bir sebeple devre dışı kalması durumunda dahi rölede güç akışı devam edecek ve normalde kapalı özelliğe sahip olan valf açık durumda (Yakıt geçişi mümkün) olacaktır.
 
-## 8. Sonuç ve Öneriler
+Projeye özel olarak tasarlanan ek modül kartı, basınç sensörü ile 0-5v protokolü kullanarak analog haberleşme yapacaktır. 2 saniyelik periyotlar ile basınç sensöründen veriler alınarak ADC ile MCU'ya iletilecektir. MCU tarafından basınç kontrol edilerek, istenilen değerin altına düşmesi durumunda röle tetiklenecek ve dizel motor stop ettirilecektir. Bununla eş zamanlı olarak UART ile GSM modülü haberleşmesi sağlanacak ve belirlenen telefon numarasına durumla ilgili SMS gönderilecektir.
+
+Manuel olarak kontak kapatıldığı durumda aküden gelen güç kesildiği için tüm sistem devre dışı kalacaktır. Ayrıca normalde kapalı olan valf herhangi bir tetikleme almadığı için kapalı konuma geçecektir. Bu sayede dizel motor kapalı durumdayken ekstra güvenlik sağlanmış olacaktır.
+## 9. Sonuç ve Öneriler
 Bu projede belirtilen çözüm adımları doğru bir şekilde uygulandığında ve gerçek uygulama testi analizlerdeki gibi gittiğinde müşterinin tüm sorunu ortadan kaldırılacaktır. Bununla birlikte, sistem uzaktan başlatma ve durdurma gibi ileriye dönük gelişmelere açıktır. Tamamen manuel olarak çalışan su pompası bu entegre ile birlikte durdurma işlemi kontrol edilebilir hale gelmiştir. İleriye dönük eklemeler ve güncellemelerle sistem insan gücünü daha az harcayacak duruma getirilebilir.
 
 Müşteriye eklenen sensörlere ve kartlara zarar vermemesi, afaki koşullarda bulundurmaması için gerekli uyarılar yapılmalıdır. Projede kullanılan akü, kablo gibi zaman içerisinde yıpranan ve ömrünü tüketen materyaller hakkında düzenli bakım yaptırması belirtilmelidir.
