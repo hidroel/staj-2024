@@ -45,4 +45,4 @@ I2C, düşük hızda veri iletimi gerektiren uygulamalar için tasarlanmış, ik
 
 MCU ile seri haberleşme için örnek diyagram aşağıdadır:
 
-![Serial Port Diagram](documents\images\Staj-2024-Serial-Port-Diagram.png)
+![Serial Port Diagram]([documents\images\Staj-2024-Serial-Port-Diagram.pn](https://github.com/hidroel/staj-2024/blob/main/documents/images/Staj-2024-Serial-Port-Diagram.png))
