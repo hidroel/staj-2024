@@ -41,3 +41,8 @@ I2C, düşük hızda veri iletimi gerektiren uygulamalar için tasarlanmış, ik
   - Veri iletim hızı SPI kadar yüksek değildir.
   - İletişimde çakışma (collision) riski vardır.
 
+
+
+MCU ile seri haberleşme için örnek diyagram aşağıdadır:
+
+![Serial Port Diagram](documents\images\Staj-2024-Serial-Port-Diagram.png)
