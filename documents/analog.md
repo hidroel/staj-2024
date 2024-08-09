@@ -26,6 +26,40 @@ Yüksek bit çözünürlüğünde adım aralıkları daha kısadır. Yani daha h
 
 ADC'lerin büyük bölümü voltaj ile okuma yaparlar. 4-20 mA ise akım ile veri aktarımı sağlar. Bundan dolayı ADC ile bu verinin okunabilmesi için voltaj aralıklarına dönüştürülmesi gereklidir. Veri iletim hattı 4-20 mA protokolü ile ADC'ye kadar gelir. ADC'ye aktarılmadan önce bir direnç devresi kurularak akıma bağlı voltaj değişikliği sağlanır. Bu aşamada genellikle 250 ohm direnç kullanılmaktadır. Bu voltajı ADC okur ve dijitale çevirerek MCU'ya iletir.
 
+![4-20ma Görseli](https://www.hgsind.com/sites/default/files/content_images/Currentloop_Figure1b.jpg)
+
+# 0-5v Protokolü
+0-5v protokolü, gerilim ile veri iletimi sağlayan bir protokoldür. Sensörden çıkan gerilim 0 ile 5v arasında olmak zorundadır. Sensörün ölçüm aralığına göre 0-5v arasında bir gerilim çıkışı yapar ve bu ADC tarafından okunur. Örneğin 0-100 derece arasında sıcaklık ölçen bir sıcaklık sensörü 0-5v protokolü kullanıyorsa 0 derece 0 volta, 50 derece 2,5 volta, 100 derece ise 5 volta karşılık gelecektir. ADC'ler gerilim kaynaklı okuma yaptığı için ekstra herhangi bir dönüşüm yapmaya gerek kalmamaktadır.
+
+# 0-10v Protokolü
+0-10v protokolü 0-5v ile aslında birebir aynıdır. Çalışma prensibinde hiçbir farklılık yoktur. Aradaki tek fark aralığın daha geniş olması yani 0-10v arasında olmasıdır. Bu sayede daha fazla parçalama yapılabilir ve ölçüm hassasiyeti artırılabilir. Tabii bu hassasiyet için ADC'nin çözünürlüğünün de buna uygun olması gereklidir.
+
+![0-5v Görseli](https://www.researchgate.net/profile/Viorel-Miron-Alexe/publication/322087251/figure/fig4/AS:667627429048361@1536186191791/Representation-of-the-sensors-analog-signal-offsetted-to-25V-DC-with-the-voltage.ppm)
+
+![0-5v 0-10v Farkı](https://andykong.org/static/analogscalinggraphic.png)
+
+# Diferansiyel ve Tek Uçlu Bağlantılar
+Tek Uçlu (Single-Ended) Bağlantı: Bu bağlantı türü, bir analog sinyalin referans olarak ortak bir toprak hattına (GND) karşı ölçüldüğü bir yöntemdir. Tek bir giriş hattı ve bir toprak hattı kullanılır. Bu, basit ve yaygın olarak kullanılan bir yöntemdir, ancak gürültüye karşı hassas olabilir.
+
+Diferansiyel Bağlantı: Diferansiyel bağlantıda, iki giriş hattı (pozitif ve negatif) kullanılır ve sinyal bu iki hat arasındaki fark olarak ölçülür. Bu yöntem, ortak mod gürültüsünü (örneğin elektromanyetik girişim) ortadan kaldırarak daha güvenilir ve doğru ölçümler sağlar. Özellikle uzun mesafelerde veya gürültülü ortamlarda tercih edilir.
+
+# Çoklama
+Analog Multiplexer (Çoklayıcı): Çoklayıcılar, tek bir ADC (Analog to Digital Converter) kullanarak birden fazla analog sinyali okumanın bir yolunu sunar. Çoklayıcı, giriş sinyalleri arasında hızla geçiş yaparak birden fazla kaynaktan gelen verileri tek bir ADC üzerinden işler. Bu, çok kanallı sistemlerde maliyetleri düşürmek için kullanılır.
+# Paralel Bağlantılar
+
+Paralel bağlantı, aynı anda birden fazla sinyalin iletilmesi için kullanılır. Bu yöntemde, her bir sinyalin kendi hattı vardır, bu da daha hızlı veri iletimine olanak tanır, ancak daha fazla kablo gerektirir.
+
+# Aktif Pasif Filtreleme
+Aktif Filtreleme: Bu yöntemde, sinyal işlemeyi geliştirmek için aktif bileşenler (örneğin, op-amp'ler) kullanılır. Aktif filtreler, belirli frekanslardaki gürültüyü azaltarak sinyal kalitesini artırabilir ve sinyalin daha hassas bir şekilde işlenmesini sağlar.
+
+Pasif Filtreleme: Pasif bileşenler (dirençler, kapasitörler, indüktörler) kullanılarak yapılan filtreleme, genellikle daha basittir ve güç gerektirmez. Pasif filtreler, istenmeyen frekansları ve gürültüyü bastırmak için kullanılır, ancak aktif filtreler kadar esnek değildirler.
+
+# Analog Demodülasyon
+Analog sinyallerin farklı taşıyıcı frekanslar üzerine bindirilip, daha sonra demodüle edilerek asıl bilgiye erişildiği bir yöntemdir. Bu, özellikle radyo frekansı iletişimlerinde kullanılır.
+
+# Zaman Bölmeli Çoklama
+Birden fazla analog sinyalin, belirli zaman dilimlerinde sırayla tek bir hat üzerinden iletilmesi yöntemidir. Her sinyal belirli bir zaman aralığında gönderilir ve bu zaman dilimleri arasında geçiş yaparak birden fazla sinyalin tek bir hat üzerinden iletilmesi sağlanır.
+
 # ADC Bit Çözünürlüğü Önemi
 
 ADC'ler 8 bit, 10 bit, 16 bit gibi birçok farklı bit çözünürlüğüne sahiptir. Bit çözünürlüğü kullanım alanına göre oldukça önemlidir. Bit çözünürlüğü ADC'nin dijital adım sayısının belirtir. 2 üzeri bit sayısı şeklinde adım sayısı bulunur. Örneğin 8 bitlik bir ADC 256 adım aralığına sahiptir. 16 bitlik bir ADC 65536 adım sayısına sahiptir. Adım sayısı sensörlerden okunan verinin hassasiyetini belirler. Örneğin 0-256 PSI aralığında basınç ölçen bir sensördeki veri 8 bitlik bir ADC ile okunursa basınç değişimleri 1 PSI olarak değişir, ara değerler ölçülemez. Bu sensördeki veri 16 bitlik bir ADC ile okunursa 0,01 PSI gibi küçük değerlerin değişimi bile dijital olarak okunabilir.

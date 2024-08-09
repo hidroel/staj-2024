@@ -1,11 +1,11 @@
-# Proje Başlığı: Dizel Motor Su Pompası Ek Modülü
+# Proje Başlığı: Damlama Sulama Sistemi Ek Modülü
 
 ## 1. Giriş
 ### 1.1 Proje Tanımı
-Müşterimiz, tarım sulama sisteminde kullandığı dizel motor su pompası ile ilgili bir sorun yaşamaktadır. Bu proje, bu sorunu tespit etmek ve çözmek amacıyla yürütülecektir.
+Müşterimiz, tarım sulama sisteminde kullandığı damlama sulama sistemi ile ilgili bir sorun yaşamaktadır. Bu proje, bu sorunu tespit etmek ve çözmek amacıyla yürütülecektir.
 
 ### 1.2 Amaç ve Hedefler
-Projenin amacı, dizel motor su pompasının çalışmasında aksamaya neden olan problemleri belirlemek ve bu problemleri çözmektir. Hedefler:
+Projenin amacı, damlama sulama sisteminin çalışmasında aksamaya neden olan problemleri belirlemek ve bu problemleri çözmektir. Hedefler:
 - Problemin nedenlerini belirlemek
 - Çözüm önerileri sunmak
 - Çözümün uygulanabilirliğini test etmek
@@ -93,6 +93,12 @@ Manuel olarak kontak kapatıldığı durumda aküden gelen güç kesildiği içi
 Bu projede belirtilen çözüm adımları doğru bir şekilde uygulandığında ve gerçek uygulama testi analizlerdeki gibi gittiğinde müşterinin tüm sorunu ortadan kaldırılacaktır. Bununla birlikte, sistem uzaktan başlatma ve durdurma gibi ileriye dönük gelişmelere açıktır. Tamamen manuel olarak çalışan su pompası bu entegre ile birlikte durdurma işlemi kontrol edilebilir hale gelmiştir. İleriye dönük eklemeler ve güncellemelerle sistem insan gücünü daha az harcayacak duruma getirilebilir.
 
 Müşteriye eklenen sensörlere ve kartlara zarar vermemesi, afaki koşullarda bulundurmaması için gerekli uyarılar yapılmalıdır. Projede kullanılan akü, kablo gibi zaman içerisinde yıpranan ve ömrünü tüketen materyaller hakkında düzenli bakım yaptırması belirtilmelidir.
+
+Bu projede 0-5v analog haberleşme protokolü ve çevre bileşenlerle seri haberleşme protokolleri uygulanmıştır. Bunlarla alakalı detaylı bilgiye ulaşmak için:
+
+[Seri Haberleşme Dökümanı](https://github.com/hidroel/staj-2024/blob/main/documents/serial.md)
+[Analog Haberleşme Dökümanı](https://github.com/hidroel/staj-2024/blob/main/documents/analog.md)
+
 
 Projede kullanılacak kartın diyagrami aşağıdadır:
 
