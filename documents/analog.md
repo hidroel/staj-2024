@@ -124,7 +124,7 @@ Gerilim bölücülerin en büyük dezavantajı analog verideki hassasiyetin azal
 
 Gerilimi istediğimiz aralığa düşürmenin bir diğer yolu da Op-Amp kullanmaktır. Op-Amp gerilim bölücüye kıyasla daha maliyetli ancak daha hassas sonuçlar veren bir çözümdür. Gerilim bölücünün yaptığı işin aynısını başka methodlar ile yapmaktadır. Op-Amp görseli aşağıdadır: 
 
-![OpAmpDiyagram](https://github.com/hidroel/staj-2024/raw/main/documents/images/Staj-2024-OpAmp.png)
+![OpAmpDiyagram](https://github.com/hidroel/staj-2024/raw/main/documents/images/Staj-2024-OpAmp.jpg)
 
 Op-Amp'ın kullanımına gelecek olursak;
 
