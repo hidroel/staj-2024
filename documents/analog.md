@@ -137,7 +137,7 @@ Bu pin, op-amp'in giriş voltajlarının ters yönlü etkisini ifade eder. Non-i
 
 +Vss (Pozitif Besleme Voltajı):
 
-Op-amp'in çalışması için gerekli pozitif besleme voltajını sağlar. Op-amp'in çalışma aralığını belirler ve çıkış voltajının üst sınırını belirler. Op-amp'in doğru şekilde çalışabilmesi için yeterli pozitif besleme voltajı sağlamalısın.
+Op-amp'in çalışması için gerekli pozitif besleme voltajını sağlar. Op-amp'in çalışma aralığını belirler ve çıkış voltajının üst sınırını belirler. Op-amp'in doğru şekilde çalışabilmesi için yeterli pozitif besleme voltajı sağlamalıyız.
 
 -Vss (Negatif Besleme Voltajı):
 
@@ -148,4 +148,5 @@ Op-amp'in işlem sonucunda elde ettiği amplifiye edilmiş voltajı bu pin üzer
 
 Op-Amp kullanımında gain yani kazanç hesaplaması yapılarak yükseltme ve düşürme uygulanabilir. Op-Amp genellikle yükseltme işlemlerde daha sık tercih edilir ancak düşürme için de kullanılabilmektedir. Kazanç aslında pozitif bir terimdir ancak kazancı 1'den küçük bir değer olarak belirlediğimizde düşürme işlemi için Op-Amp kullanabiliriz.
 
-
+**Not:** Inverting Amplifier voltaj yükseltme anlamına gelmektedir.
+**Not:** Non-Inverting Amplifier voltaj düşürme anlamına gelmektedir.
