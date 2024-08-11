@@ -85,3 +85,67 @@ Eğer projede birden fazla analog veri toplanacaksa MCU'nun diğer GPIO pinleri 
 - Analog veri hattı manyetik alan üreten bileşenlerden uzak tutularak manyetik gürültüden korunur.
 - Analog sinyal yolları dijital sinyal yollarıyla çok yakın olmamalıdır.
 
+
+# Tarım Sulama Sistemi Ek Modülü ADC Kullanımı
+Projemizde kullandığımız basınç sensörünün analog çıkış gerilimi 0.5v ile 4.5v arasındadır. ADC olarak MCU üzerindeki dahili ADC'yi kullanacağımız için bu aralık ihtiyacımızı karşılamamakta. MCU üzerindeki dahili ADC maksimum 3.3v gerilime kadar desteklediği için sensörün kendi aralığını kullanamıyoruz. Bundan dolayı, bu gerilim aralığını 0 - 3.3v aralığına düşürmemiz gerekiyor. Gerilimi istediğimiz aralığa düşürmek için iki adet yöntem bulunuyor.
+
+## Gerilim Bölücü Kullanımı
+
+Gerilim bölücü basit bir devre ile sağlanmaktadır. Bu devre en temel ohm yasasına göre, gerilimin dirençle orantılı geçeceğine dayanarak kurulur. Bu sayede gerilim oransal olarak azaltılabilir. Aşağıda gerilim bölücü devresinin şemasını görebilirsiniz.
+
+![GerilimBolucuDiyagram](https://github.com/hidroel/staj-2024/raw/main/documents/images/Staj-2024-GerilimBolucu.png)
+
+Şekilde ifade edilen R1 ve R2 dirençleri ihtiyaca uygun şekilde belirlenmelidir. Bunu hesaplamak için genel bir formül bulunmaktadır.
+
+Bu formüller esasında V = I * R formülünden türetilmektedir. Şimdi gerilim bölücünün genel formülüne bakalım.
+
+Vout = Vin * (R2/R2+R1)
+
+Bu formülde gerekli yerleştirmeler yapılarak giriş voltajı istenilen çıkış voltajına getirilebilir. Ancak projemizde sabit bir gerilim değil, değişken bir gerilim var. Çünkü sensörden analog veri okuması yapacağız. Bu durumda belli bir aralığa düşürecek şekilde bir çözüm uygulamamız gerek. Bunu da şu şekilde yapabiliriz:
+
+Vin aralığı: 0.5v - 4.5v
+Vout aralığı: 0v - 3.3v 
+
+Voutmax / Vinmax hesaplamasını yaptığımız 0.733 oranına ulaşıyoruz. Bu, gelen her değeri 0.733 ile çarparak düşürmemiz anlamına geliyor. Gerilim düşürmesini ise gerilim bölücü devresi ile sağlayacaktık. Yani, Vin değerini çarpmamız gereken sayıyı bulmuş olduk. Ana formüle baktığımızda Vin'in R2/R2+R1 ile çarpıldığını görüyoruz. Öyleyse;
+
+R2/R2+R1 = 0.733
+Gerekli matematiksel işlemler yapıldığında R2/R1 oranı yaklaşık olarak 2.74 yapmaktadır. Bu oranı sağlayacak 2 adet direnç değeri belirleyerek gerilim bölücü devresini tamamlayabiliriz. Örneğin;
+
+R1 = 1k Ohm
+R2 = 2,74k Ohm 
+
+Özetle, projemiz için gerilim bölücü devresi kullandığımızda R1 direnci 1k Ohm, R2 direnci 2,74k Ohm kullanılarak 0.5v - 4.5v aralığı 0 - 3.3v aralığına uygun hale gelecektir. Örneğin 4.5v olan maksimum sensör verisi, ADC'ye girerken 3,2985 yani 3.3v gibi bir değerle girecektir. 
+
+**Not:** Kullanılacak direnç değeri tam olarak bulunmaz ise seri bağlantı yapılarak birden fazla dirençle tek bir R1 direnci veya R2 direnci üretilebilir. Ancak dirençlerin sapma aralıklarının iyi ölçülmesi gereklidir.
+
+Gerilim bölücülerin en büyük dezavantajı analog verideki hassasiyetin azalmasıdır. Geniş aralıkta olan veriyi dirençler kullanarak dar aralığa düşürdüğümüz için aralıklar azalacak yani hassasiyet azalacaktır. Büyük hassasiyet gerektiren projeler için gerilim bölücü devresi kullanmak uygun bir yöntem değildir. Bu projede bu kadar ciddi hassasiyete ihtiyaç duymadığımız için gerilim bölücü devresini rahatlıkla kullanabiliriz.
+
+## Op-Amp Kullanımı
+
+Gerilimi istediğimiz aralığa düşürmenin bir diğer yolu da Op-Amp kullanmaktır. Op-Amp gerilim bölücüye kıyasla daha maliyetli ancak daha hassas sonuçlar veren bir çözümdür. Gerilim bölücünün yaptığı işin aynısını başka methodlar ile yapmaktadır. Op-Amp görseli aşağıdadır: 
+
+![OpAmpDiyagram](https://github.com/hidroel/staj-2024/raw/main/documents/images/Staj-2024-OpAmp.png)
+
+Op-Amp'ın kullanımına gelecek olursak;
+
+ +Giriş (Non-Inverting Input):
+
+Op-amp'in bu pinine uygulanan voltaj, çıkış voltajını belirleyen ana sinyaldir. Bu pin, sinyalin doğrudan amplifiye edildiği giriştir. Eğer op-amp'in çıkış voltajını belirlemek için sinyali bu pin aracılığıyla verirsen, op-amp bu voltajı amplifiye eder ve çıkışta uygun gerilimi sağlar.
+-Giriş (Inverting Input):
+
+Bu pin, op-amp'in giriş voltajlarının ters yönlü etkisini ifade eder. Non-inverting pin ile bu pin arasındaki fark, op-amp'in çıkışını belirler. Eğer bu pinin voltajı artırılırsa, çıkış voltajı azalır ve tam tersi.Eğer Op-amp'in çıkış voltajını bu pin ile geri besleyerek, sinyali ters yönde kontrol edebilir veya belirli bir kazanç ayarı yapabiliriz.
+
++Vss (Pozitif Besleme Voltajı):
+
+Op-amp'in çalışması için gerekli pozitif besleme voltajını sağlar. Op-amp'in çalışma aralığını belirler ve çıkış voltajının üst sınırını belirler. Op-amp'in doğru şekilde çalışabilmesi için yeterli pozitif besleme voltajı sağlamalısın.
+
+-Vss (Negatif Besleme Voltajı):
+
+Op-amp'in çalışması için gerekli negatif besleme voltajını sağlar. Çıkış voltajının alt sınırını belirler. Negatif besleme voltajı, op-amp'in sinyalleri doğru şekilde işleyebilmesi için gereklidir. 
+
+Çıkış (Output):
+Op-amp'in işlem sonucunda elde ettiği amplifiye edilmiş voltajı bu pin üzerinden dışarıya verir. Bu pin, diğer devre elemanları ile bağlantı kurarak, işlem sonucunu sağlar. Çıkış voltajı, op-amp'in amplifiye ettiği sinyal olup, bu voltajı ADC'ye bağlayabiliriz.
+
+Op-Amp kullanımında gain yani kazanç hesaplaması yapılarak yükseltme ve düşürme uygulanabilir. Op-Amp genellikle yükseltme işlemlerde daha sık tercih edilir ancak düşürme için de kullanılabilmektedir. Kazanç aslında pozitif bir terimdir ancak kazancı 1'den küçük bir değer olarak belirlediğimizde düşürme işlemi için Op-Amp kullanabiliriz.
+
+
