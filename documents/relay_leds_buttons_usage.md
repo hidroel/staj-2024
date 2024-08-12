@@ -51,3 +51,18 @@ Bu projede pull down buton kullanmak ihtiyacımızı karşılayacaktır. Pull do
 Şekilde gördüğümüz R1 direnci VCC'ye göre belirlenmelidir. MCU'nun 3.3v maksimum çalışma gerilimine sahip olduğunu düşünürsek, giriş voltajı kesinlikle 3.3 voltu geçmemelidir. VCC MCU'nun kendisinden alınabileceği gibi, güç kaynağından da alınabilir. Ancak butonlarda yüksek akıma ihtiyaç olmadığı için VCC hattını doğrudan MCU'dan çekmek mantıklı bir seçenektir.
 
 **Önemli Not:** VCC gerilimi MCU'nun kabul edeceği seviyede olsa bile direnç kullanılması zorunludur. Aksi taktirde buton aktif hale getirilse bile akım dirençsiz yoldan geçeceği için MCU tarafından okuma sağlanamayacaktır.
+
+## Debounce Nedir?
+Mekanik butonlar, fiziksel olarak iki temas yüzeyinin birbirine dokunması ve sonra ayrılmasıyla çalışır. Butona basıldığında, temas noktaları bir süreliğine geçici olarak açılıp kapanabilir. Bu durum, birkaç mikrosaniyelik titreşimlere neden olur ve "bouncing" olarak bilinir. Bouncing, bir butona basıldığında veya bırakıldığında, temas noktalarının birkaç kez açılıp kapanmasına yol açar. Bu da MCU yazılımının kararsız kalmasına ve hatalı işlem yapmasına sebep olur. Bu durumu gidermek için bazı yöntemler bulunmaktadır. İşte bu yöntemler:
+
+- Yeteri kadar büyük bir direnç kullanmak. Direnç kullanılarak gürültüler önemli ölçüde azaltılabilir. 
+- Kapasitör kullanmak. Butonla MCU arasındaki hatta kapasitör ekleyerek dalgalanmaların önüne geçilerek düzgün bir voltaj sağlanabilir.
+- Yazılım çözümleri. Firmware yazılımında sinyalin belli bir süre stabil gelmesinden sonra doğru kabul edileceğine yönelik eklemeler yapılarak çözüm bulunabilir.
+
+Yukarıdaki yöntemlerin tümünü aynı anda kullanmak en efektif sonucu verecektir. Yine de proje durumuna göre yalnızca bir tanesi de kullanılabilir. 
+
+Bouncing durumunun ölçüm cihazlarıyla kaydedilmiş görselleri:
+![BouncingImg](https://github.com/hidroel/staj-2024/raw/main/documents/images/Staj-2024-Bouncing1.png)
+![BouncingImg](https://github.com/hidroel/staj-2024/raw/main/documents/images/Staj-2024-Bouncing2.png)
+
+
