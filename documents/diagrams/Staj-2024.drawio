@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5" pages="7">
   <diagram name="Main" id="z_qVd1KZJYBcLqZSe_iI">
-    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="xsOsGMcdbyZTxs_sAXih-6" value="Yakıt Kesici&lt;div&gt;(LPG Valf)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xsOsGMcdbyZTxs_sAXih-7" value="Relay" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+        <mxCell id="xsOsGMcdbyZTxs_sAXih-7" value="Relay&lt;div&gt;(J102K1CS35VDC.20)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="320" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xsOsGMcdbyZTxs_sAXih-8" value="GSM&lt;div&gt;SIM800L&lt;/div&gt;&lt;div&gt;HZ-MG2608-C1A-MK-02&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -157,13 +157,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oYKG7SAVJAFG4u_lUfUL-3" value="Dizel Engine&lt;hr&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr_engine;fillColor=#F58534;gradientColor=none;" parent="hd1AN3d5d5kz8yqUC4JS-1" vertex="1">
-          <mxGeometry x="940" y="369" width="140" height="90" as="geometry" />
+          <mxGeometry x="990" y="369" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oYKG7SAVJAFG4u_lUfUL-4" value="Fuel Pipe" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=1;" parent="hd1AN3d5d5kz8yqUC4JS-1" vertex="1">
-          <mxGeometry x="1063.5" y="341.5" width="155" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="oYKG7SAVJAFG4u_lUfUL-5" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-180;" parent="hd1AN3d5d5kz8yqUC4JS-1" vertex="1">
-          <mxGeometry x="1080" y="414" width="60" height="10" as="geometry" />
+          <mxGeometry x="1062.75" y="342.25" width="156.5" height="10" as="geometry" />
         </mxCell>
         <mxCell id="oYKG7SAVJAFG4u_lUfUL-6" value="Fuel Pipe" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=1;" parent="hd1AN3d5d5kz8yqUC4JS-1" vertex="1">
           <mxGeometry x="1091.25" y="180" width="97.5" height="10" as="geometry" />
@@ -286,6 +283,9 @@
             <mxPoint x="670" y="490" as="sourcePoint" />
             <mxPoint x="720" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KdIZgYhNLFDb6F5SqFvU-0" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;horizontal=1;" vertex="1" parent="hd1AN3d5d5kz8yqUC4JS-1">
+          <mxGeometry x="1125" y="420" width="20" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
