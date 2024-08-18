@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5da013fd-477f-4554-ac3f-b02ea1575a93)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "PWR_SOURCE_VCC" (shape output) (at 36.83 35.56 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4da6631f-f9d8-4996-97e1-7f718db357e3)
+  )
+  (hierarchical_label "PWR_12V" (shape output) (at 262.89 31.75 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 59b3204e-dc54-4369-8839-18b58e0f4055)
+  )
+  (hierarchical_label "PWR_12V_GND" (shape output) (at 262.89 34.29 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d826476a-d9fb-4365-a419-0504242ffb58)
+  )
+  (hierarchical_label "PWR_SOURCE_GND" (shape input) (at 36.83 39.37 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid eb78204f-ffd1-4e56-9167-d2592969139c)
+  )
+)
