@@ -159,6 +159,14 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 037f73a9-e294-4798-8fef-79806b8beaae)
     )
+    (pin "VCC_3.3V" input (at 271.78 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 344d184f-9c14-42d8-851f-cad852529f8e)
+    )
+    (pin "GND_3.3V" input (at 271.78 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5fed9869-255b-4a7b-91de-40c6afefc366)
+    )
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf" (page "10"))
