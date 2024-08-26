@@ -509,9 +509,9 @@
     (property "Digikey" "497-3476-2-ND" (at 125.73 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid cf496758-0ee1-4f2e-adab-9ddd993cf4da))
-    (pin "" (uuid 62aa6c92-c2cf-4ca2-9a0f-98dabd95571e))
-    (pin "" (uuid 00060b5e-ec36-4be7-b59a-7f63a674c32b))
+    (pin "" (uuid 7cb6d8b3-7f24-47ee-bb25-a484e102a5d4))
+    (pin "" (uuid 7cb6d8b3-7f24-47ee-bb25-a484e102a5d4))
+    (pin "" (uuid 7cb6d8b3-7f24-47ee-bb25-a484e102a5d4))
     (pin "" (uuid 7cb6d8b3-7f24-47ee-bb25-a484e102a5d4))
     (instances
       (project "drip-irrigation-sys-cc"
