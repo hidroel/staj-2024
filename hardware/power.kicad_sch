@@ -8,10 +8,6 @@
   )
 
 
-  (wire (pts (xy 93.98 49.53) (xy 118.11 49.53))
-    (stroke (width 0) (type default))
-    (uuid 3e08aa35-e2ba-48eb-b899-3e267b7b3734)
-  )
   (wire (pts (xy 50.8 46.99) (xy 58.42 46.99))
     (stroke (width 0) (type default))
     (uuid 6841db48-cd24-4f42-9bf0-cc7f0753417c)
@@ -19,10 +15,6 @@
   (wire (pts (xy 50.8 49.53) (xy 58.42 49.53))
     (stroke (width 0) (type default))
     (uuid a833614a-9733-4169-bab6-92655a90571b)
-  )
-  (wire (pts (xy 93.98 46.99) (xy 118.11 46.99))
-    (stroke (width 0) (type default))
-    (uuid aadc11b2-0a33-4027-8826-53f80cfcd156)
   )
 
   (hierarchical_label "PWR_GND" (shape output) (at 50.8 49.53 180) (fields_autoplaced)
@@ -51,14 +43,6 @@
     (pin "PWR_VCC" input (at 58.42 46.99 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9d3d6e87-ff30-47c2-9649-6f3e363dd77b)
-    )
-    (pin "PWR_SOURCE_VCC" output (at 93.98 46.99 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid eca1c663-c92a-4e3c-b6d1-5d96f8a27ba7)
-    )
-    (pin "PWR_SOURCE_GND" input (at 93.98 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 332f9d8a-510c-4d21-942d-5182d12b7c24)
     )
     (instances
       (project "drip-irrigation-sys-cc"
@@ -97,31 +81,6 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 118.11 44.45) (size 39.37 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid e37c023e-02fa-486d-a289-4e5112af51b8)
-    (property "Sheetname" "Power 12V" (at 118.11 43.7384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power_12v.kicad_sch" (at 118.11 65.3546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "PWR_SOURCE_GND" input (at 118.11 49.53 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2b4c1111-e12c-4438-9b17-420c33821a11)
-    )
-    (pin "PWR_SOURCE_VCC" output (at 118.11 46.99 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid a64f4bd7-7d89-422d-91e3-0ff79c987be9)
-    )
-    (instances
-      (project "drip-irrigation-sys-cc"
-        (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf" (page "12"))
       )
     )
   )
