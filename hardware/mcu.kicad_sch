@@ -535,6 +535,7 @@
   )
 
   (no_connect (at 160.02 87.63) (uuid 14c66a7d-aa31-420c-ba44-7d9c2f3eed96))
+  (no_connect (at 160.02 92.71) (uuid 99ddae17-cfaa-4fb6-9973-fa60715d258c))
   (no_connect (at 160.02 82.55) (uuid 9a073739-9c8a-4948-8d4f-8384f619d41b))
   (no_connect (at 160.02 90.17) (uuid e7d66c7d-34ca-4448-a7ff-1643c8da82b1))
 
