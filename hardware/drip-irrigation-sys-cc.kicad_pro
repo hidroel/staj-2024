@@ -509,12 +509,8 @@
       "Power 5V"
     ],
     [
-      "57ec51bb-f585-40a3-8ffc-51913ca20adf",
-      "4V"
-    ],
-    [
-      "c89e0226-58a3-4dd7-b4e1-774a42131142",
-      "mg2608"
+      "abe8ffe0-aaec-43ca-9ae1-9a3e5d5ac5b2",
+      "GSM_Module"
     ]
   ],
   "text_variables": {}

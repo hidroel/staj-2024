@@ -517,6 +517,9 @@
     (property "Datasheet" "PA2743NL" (at 133.35 36.83 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
+    (property "Digikey" "553-2181-ND" (at 133.35 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5c1f1213-b583-408e-9dff-677ab593b3e1))
     (pin "2" (uuid b06da211-f3f4-4dbf-9eec-bf04f09c0296))
     (pin "3" (uuid 53b2c921-aebf-424f-b11f-62774de7af83))
@@ -545,8 +548,8 @@
     (property "Datasheet" "~" (at 167.64 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3894e608-e2df-4a1a-af72-10836ecc91c4))
-    (pin "2" (uuid 1fd43e3f-e578-4974-a7ec-b3050a565ca9))
+    (pin "1" (uuid 1e22a721-18d3-47c0-a219-f0410c849c3f))
+    (pin "2" (uuid 940efc4f-198f-4ea0-bddf-2bd905f89a99))
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf/06935af8-5baf-4953-9bef-44fff6202742"
@@ -644,7 +647,7 @@
     (property "Value" "D" (at 52.07 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 52.07 40.64 0)
+    (property "Footprint" "drip-irrigation-sys-cc:DIODE_DO214AA_MBRS_VIS" (at 52.07 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.07 40.64 0)
