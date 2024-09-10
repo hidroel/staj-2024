@@ -127,7 +127,7 @@
   (symbol (lib_id "Device:R") (at 68.58 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c2f8953-ec2b-4877-9466-d67f42d37eed)
-    (property "Reference" "R8" (at 68.58 52.07 90)
+    (property "Reference" "R12" (at 68.58 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 68.58 54.61 90)
@@ -147,7 +147,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/8c94c97b-f919-45ea-a17c-2e0bf75da6f4"
-          (reference "R8") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -156,7 +156,7 @@
   (symbol (lib_id "Device:R") (at 88.9 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid baa3ecff-2d9d-41af-a34e-48d70c002e29)
-    (property "Reference" "R9" (at 88.9 52.07 90)
+    (property "Reference" "R13" (at 88.9 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.74K" (at 88.9 54.61 90)
@@ -176,7 +176,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/8c94c97b-f919-45ea-a17c-2e0bf75da6f4"
-          (reference "R9") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -185,7 +185,7 @@
   (symbol (lib_id "power:GND") (at 101.6 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc78e14d-79d3-4881-92a0-e0d6a3359bd7)
-    (property "Reference" "#PWR018" (at 101.6 69.85 0)
+    (property "Reference" "#PWR031" (at 101.6 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 68.58 0)
@@ -201,7 +201,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/8c94c97b-f919-45ea-a17c-2e0bf75da6f4"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )

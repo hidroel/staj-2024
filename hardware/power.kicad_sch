@@ -89,7 +89,7 @@
   (symbol (lib_id "power:+5V") (at 266.7 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47f99ea7-192a-47c8-a459-978b5461e4ec)
-    (property "Reference" "#PWR017" (at 266.7 25.4 0)
+    (property "Reference" "#PWR030" (at 266.7 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 266.7 16.51 0)
@@ -105,7 +105,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )

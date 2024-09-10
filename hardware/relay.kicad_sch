@@ -518,7 +518,7 @@
   (symbol (lib_id "power:+5V") (at 146.05 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ce6c9c5-98f5-4958-bf0e-1bbe84ecbd67)
-    (property "Reference" "#PWR013" (at 146.05 27.94 0)
+    (property "Reference" "#PWR040" (at 146.05 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 146.05 19.05 0)
@@ -534,7 +534,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/202a1cab-a33b-4ef0-945c-8042c7ebf8be"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -543,7 +543,7 @@
   (symbol (lib_id "power:GND") (at 147.32 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 929571f8-768c-4143-9d4c-b9d144a1a83c)
-    (property "Reference" "#PWR012" (at 147.32 107.95 0)
+    (property "Reference" "#PWR041" (at 147.32 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 106.68 0)
@@ -559,7 +559,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/202a1cab-a33b-4ef0-945c-8042c7ebf8be"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -568,7 +568,7 @@
   (symbol (lib_id "Device:R") (at 116.84 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be78f6c5-5912-42f8-800a-6b79fb47e730)
-    (property "Reference" "R7" (at 116.84 55.88 90)
+    (property "Reference" "R17" (at 116.84 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 116.84 58.42 90)
@@ -585,7 +585,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/202a1cab-a33b-4ef0-945c-8042c7ebf8be"
-          (reference "R7") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -594,19 +594,19 @@
   (symbol (lib_id "Device:C") (at 129.54 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfa282ca-fe39-4e48-95bb-733960f60d90)
-    (property "Reference" "C14" (at 129.54 54.61 90)
+    (property "Reference" "C21" (at 129.54 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nf" (at 129.54 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 133.35 61.2648 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 133.35 61.2648 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "490-3167-2-ND" (at 129.54 62.23 0)
+    (property "Digikey" "" (at 129.54 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aef81424-3be7-4e32-bda6-cd9896104fe6))
@@ -614,7 +614,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/202a1cab-a33b-4ef0-945c-8042c7ebf8be"
-          (reference "C14") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -634,6 +634,9 @@
     )
     (property "Datasheet" "MMBT3904-TP" (at 138.43 62.23 0)
       (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Digikey" "MMBT3904TPMSTR-ND" (at 138.43 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2449ffa0-684f-4d6d-822b-775bf5792350))
     (pin "2" (uuid 640a5961-ea38-4eeb-b2c8-77ec440e069a))

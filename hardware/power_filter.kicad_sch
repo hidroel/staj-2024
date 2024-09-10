@@ -536,7 +536,7 @@
   (symbol (lib_id "Device:C") (at 167.64 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b7148be-19ef-4a10-82e1-a74170f2d44b)
-    (property "Reference" "C2" (at 171.45 39.37 0)
+    (property "Reference" "C23" (at 171.45 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33nf" (at 171.45 41.91 0)
@@ -553,7 +553,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf/06935af8-5baf-4953-9bef-44fff6202742"
-          (reference "C2") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -562,7 +562,7 @@
   (symbol (lib_id "power:GND") (at 243.84 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42859001-23b9-4f47-8333-d653ca6fa6fe)
-    (property "Reference" "#PWR05" (at 243.84 50.8 0)
+    (property "Reference" "#PWR043" (at 243.84 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 49.53 0)
@@ -578,7 +578,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf/06935af8-5baf-4953-9bef-44fff6202742"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -587,7 +587,7 @@
   (symbol (lib_id "power:+12V") (at 243.84 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 515d50d5-e81e-4ae3-bee7-bd9431fcf802)
-    (property "Reference" "#PWR04" (at 243.84 40.64 0)
+    (property "Reference" "#PWR042" (at 243.84 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 243.84 31.75 0)
@@ -603,7 +603,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf/06935af8-5baf-4953-9bef-44fff6202742"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -641,7 +641,7 @@
   (symbol (lib_id "Device:D") (at 52.07 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9301feca-d680-4fda-82d1-055d75ee74c6)
-    (property "Reference" "D2" (at 52.07 34.29 0)
+    (property "Reference" "D4" (at 52.07 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 52.07 36.83 0)
@@ -667,7 +667,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf/06935af8-5baf-4953-9bef-44fff6202742"
-          (reference "D2") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -676,7 +676,7 @@
   (symbol (lib_id "Device:C") (at 124.46 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd76483e-2d75-4a85-89d0-25d3fe8d4a4c)
-    (property "Reference" "C1" (at 128.27 39.37 0)
+    (property "Reference" "C22" (at 128.27 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33nf" (at 128.27 41.91 0)
@@ -693,7 +693,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/4f778b49-8d1a-4c8f-a914-ecde21a56ebf/06935af8-5baf-4953-9bef-44fff6202742"
-          (reference "C1") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )

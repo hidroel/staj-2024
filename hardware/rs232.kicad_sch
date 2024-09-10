@@ -327,10 +327,6 @@
     (stroke (width 0) (type default))
     (uuid 237c9934-0a07-49b9-a9a4-e69a55f844b6)
   )
-  (wire (pts (xy 232.41 44.45) (xy 228.6 44.45))
-    (stroke (width 0) (type default))
-    (uuid 289654b1-01a7-4ece-b60f-4cb9ffe2bd70)
-  )
   (wire (pts (xy 177.8 77.47) (xy 173.99 77.47))
     (stroke (width 0) (type default))
     (uuid 2e056a21-b0e4-4d93-b90e-c7578eb8742a)
@@ -342,6 +338,10 @@
   (wire (pts (xy 260.35 59.69) (xy 260.35 58.42))
     (stroke (width 0) (type default))
     (uuid 30d717e3-ceae-4d00-950a-491fa322a85c)
+  )
+  (wire (pts (xy 232.41 44.45) (xy 260.35 44.45))
+    (stroke (width 0) (type default))
+    (uuid 34cd08ca-f0cf-4f55-a6f2-e25cfb283c62)
   )
   (wire (pts (xy 193.04 82.55) (xy 177.8 82.55))
     (stroke (width 0) (type default))
@@ -395,10 +395,6 @@
     (stroke (width 0) (type default))
     (uuid c6ee8f0c-811c-48c6-99bf-3b6f8ca5091b)
   )
-  (wire (pts (xy 260.35 44.45) (xy 232.41 44.45))
-    (stroke (width 0) (type default))
-    (uuid cd660262-d2ae-44aa-bd06-7faad9bf3a64)
-  )
   (wire (pts (xy 190.5 52.07) (xy 190.5 35.56))
     (stroke (width 0) (type default))
     (uuid d0e486b6-a4da-431c-90bd-d11046034bab)
@@ -418,6 +414,10 @@
   (wire (pts (xy 186.69 69.85) (xy 190.5 69.85))
     (stroke (width 0) (type default))
     (uuid dac6b45a-54b6-4f87-b3d4-30d1cdeacbee)
+  )
+  (wire (pts (xy 228.6 44.45) (xy 232.41 44.45))
+    (stroke (width 0) (type default))
+    (uuid dc4410cc-5db9-4aab-be42-7c362a5e1226)
   )
   (wire (pts (xy 177.8 85.09) (xy 173.99 85.09))
     (stroke (width 0) (type default))
@@ -468,13 +468,13 @@
   (symbol (lib_id "Device:C") (at 250.19 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 154b865c-a00c-4cd0-a1ac-194a71e1bfca)
-    (property "Reference" "C28" (at 251.46 52.07 0)
+    (property "Reference" "C?" (at 251.46 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 251.46 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 251.1552 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 251.1552 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 250.19 54.61 0)
@@ -488,15 +488,15 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "C28") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "C28") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
       (project "rs232-rs485[1]"
         (path "/4c88c17e-e488-4219-b30f-f09af763bafc"
-          (reference "C23") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -505,7 +505,7 @@
   (symbol (lib_id "power:GND") (at 186.69 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40b7ea96-8a9b-43af-9bfb-5aff0501ec4a)
-    (property "Reference" "#PWR040" (at 186.69 57.15 0)
+    (property "Reference" "#PWR?" (at 186.69 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 54.61 0)
@@ -521,15 +521,15 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "rs232-rs485[1]"
         (path "/4c88c17e-e488-4219-b30f-f09af763bafc"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -538,13 +538,13 @@
   (symbol (lib_id "Device:C") (at 242.57 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7984f3d2-480d-4457-a946-792e8b1a67cc)
-    (property "Reference" "C27" (at 245.491 78.8416 0)
+    (property "Reference" "C?" (at 245.491 78.8416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 245.491 81.153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 243.5352 83.82 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 243.5352 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 242.57 80.01 0)
@@ -558,15 +558,15 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "C27") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "C27") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "rs232-rs485[1]"
         (path "/4c88c17e-e488-4219-b30f-f09af763bafc"
-          (reference "C22") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -575,13 +575,13 @@
   (symbol (lib_id "Device:C") (at 260.35 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fa85aae-356c-470f-b56c-6b3c677e2cd7)
-    (property "Reference" "C29" (at 261.62 52.07 0)
+    (property "Reference" "C?" (at 261.62 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 261.62 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 261.3152 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 261.3152 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 54.61 0)
@@ -595,15 +595,15 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "C29") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "C29") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
       (project "rs232-rs485[1]"
         (path "/4c88c17e-e488-4219-b30f-f09af763bafc"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -612,13 +612,13 @@
   (symbol (lib_id "Device:C") (at 186.69 73.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91fc6771-a2dd-41df-83b3-cb3abe944ef4)
-    (property "Reference" "C26" (at 182.88 71.12 0)
+    (property "Reference" "C?" (at 182.88 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 180.34 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 185.7248 77.47 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 185.7248 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.69 73.66 0)
@@ -632,15 +632,15 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "C26") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "C26") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "rs232-rs485[1]"
         (path "/4c88c17e-e488-4219-b30f-f09af763bafc"
-          (reference "C21") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -649,7 +649,7 @@
   (symbol (lib_id "drip-irrigation-sys-cc:MAX3222EWN_T") (at 210.82 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3436f1e-7a45-4a16-9ed3-b6bd4ecd86fe)
-    (property "Reference" "U6" (at 210.82 36.83 0)
+    (property "Reference" "U?" (at 210.82 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MAX3222EWN_T" (at 210.82 39.37 0)
@@ -724,10 +724,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "U6") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "U5") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -736,7 +736,7 @@
   (symbol (lib_id "power:GND") (at 250.19 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3140e46-ada8-467c-a9f7-90668d30686f)
-    (property "Reference" "#PWR043" (at 250.19 68.58 0)
+    (property "Reference" "#PWR?" (at 250.19 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.317 66.6242 0)
@@ -752,15 +752,15 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "rs232-rs485[1]"
         (path "/4c88c17e-e488-4219-b30f-f09af763bafc"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -769,13 +769,13 @@
   (symbol (lib_id "Device:C") (at 173.99 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfe5e973-95ef-4fd5-bf70-a44823dae1ba)
-    (property "Reference" "C25" (at 170.18 78.74 0)
+    (property "Reference" "C?" (at 170.18 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 167.64 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 174.9552 85.09 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 174.9552 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 81.28 0)
@@ -789,15 +789,15 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "C25") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "C25") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "rs232-rs485[1]"
         (path "/4c88c17e-e488-4219-b30f-f09af763bafc"
-          (reference "C20") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -806,7 +806,7 @@
   (symbol (lib_id "power:GND") (at 242.57 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec235a2e-1c8e-4e62-8614-e7ab88efeead)
-    (property "Reference" "#PWR042" (at 242.57 97.79 0)
+    (property "Reference" "#PWR?" (at 242.57 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.697 95.8342 0)
@@ -822,15 +822,15 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "rs232-rs485[1]"
         (path "/4c88c17e-e488-4219-b30f-f09af763bafc"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -839,7 +839,7 @@
   (symbol (lib_id "power:+3V3") (at 232.41 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f987e426-789a-46a6-8805-67b5184829cd)
-    (property "Reference" "#PWR041" (at 232.41 36.83 0)
+    (property "Reference" "#PWR?" (at 232.41 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 232.791 28.6258 0)
@@ -855,15 +855,15 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/2dcd8b01-5ae6-4270-859c-384b3f86c9a3"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/3f2f58a7-db97-4667-aa97-3e4409f949c8"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "rs232-rs485[1]"
         (path "/4c88c17e-e488-4219-b30f-f09af763bafc"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )

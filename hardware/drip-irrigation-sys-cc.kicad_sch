@@ -629,321 +629,6 @@
         )
       )
     )
-    (symbol "drip-irrigation-sys-cc:UJ2-AV-4-SMT-TR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 8.89 6.35 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "UJ2-AV-4-SMT-TR" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "CONN4X1_UJ2-AV-4-SMT-TR_CUD" (at 0 0 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "Datasheet" "UJ2-AV-4-SMT-TR" (at 0 0 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "UJ2-AV-4-SMT-TR" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "CONN4X1_UJ2-AV-4-SMT-TR_CUD" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "UJ2-AV-4-SMT-TR_1_1"
-        (polyline
-          (pts
-            (xy 5.08 -10.16)
-            (xy 12.7 -10.16)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 5.08 -10.16)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -7.62)
-            (xy 5.08 -7.62)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -7.62)
-            (xy 8.89 -8.4667)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -7.62)
-            (xy 8.89 -6.7733)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -5.08)
-            (xy 5.08 -5.08)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -5.08)
-            (xy 8.89 -5.9267)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -5.08)
-            (xy 8.89 -4.2333)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 5.08 -2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 8.89 -3.3867)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 8.89 -1.6933)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 8.89 -0.8467)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 8.89 0.8467)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 -10.16)
-            (xy 12.7 2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 2.54)
-            (xy 5.08 2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (pin unspecified line (at 0 0 0) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 0 -5.08 0) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 0 -7.62 0) (length 5.08)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 0 -2.54 0) (length 5.08)
-          (name "4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "UJ2-AV-4-SMT-TR_1_2"
-        (polyline
-          (pts
-            (xy 5.08 -10.16)
-            (xy 12.7 -10.16)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 5.08 -10.16)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -7.62)
-            (xy 5.08 -7.62)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -7.62)
-            (xy 8.89 -8.4667)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -7.62)
-            (xy 8.89 -6.7733)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -5.08)
-            (xy 5.08 -5.08)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -5.08)
-            (xy 8.89 -5.9267)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -5.08)
-            (xy 8.89 -4.2333)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -2.54)
-            (xy 5.08 -2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -2.54)
-            (xy 8.89 -3.3867)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -2.54)
-            (xy 8.89 -1.6933)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 0)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 0)
-            (xy 8.89 -0.8467)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 0)
-            (xy 8.89 0.8467)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 -10.16)
-            (xy 12.7 2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 2.54)
-            (xy 5.08 2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (pin unspecified line (at 0 0 0) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 0 -5.08 0) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 0 -7.62 0) (length 5.08)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin unspecified line (at 0 -2.54 0) (length 5.08)
-          (name "4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1038,6 +723,9 @@
     )
   )
 
+  (junction (at 91.44 22.86) (diameter 0) (color 0 0 0 0)
+    (uuid 18651055-1fae-4c53-b1cd-fd8427eca825)
+  )
   (junction (at 213.36 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 679718ff-c911-4f0c-ac64-436f5fc82242)
   )
@@ -1048,6 +736,10 @@
     (uuid e7240ffb-3dcb-465a-9450-f0bd87b65687)
   )
 
+  (wire (pts (xy 161.29 134.62) (xy 161.29 130.81))
+    (stroke (width 0) (type default))
+    (uuid 0141478f-7d54-4547-8ecf-d55054f420b0)
+  )
   (wire (pts (xy 67.31 105.41) (xy 67.31 104.14))
     (stroke (width 0) (type default))
     (uuid 01457a48-e4a6-40e7-a88f-756de798ac6a)
@@ -1056,7 +748,7 @@
     (stroke (width 0) (type default))
     (uuid 067ca3fe-d71c-4f29-a474-d1f53f8ede62)
   )
-  (wire (pts (xy 209.55 80.01) (xy 209.55 27.94))
+  (wire (pts (xy 209.55 80.01) (xy 209.55 34.29))
     (stroke (width 0) (type default))
     (uuid 08196831-6e9d-4345-adad-55c3b134fa15)
   )
@@ -1136,6 +828,10 @@
     (stroke (width 0) (type default))
     (uuid 1f5deea8-698d-404c-aa65-04800aa4fe1c)
   )
+  (wire (pts (xy 160.02 134.62) (xy 161.29 134.62))
+    (stroke (width 0) (type default))
+    (uuid 2426cfaa-09c0-473a-b69f-af994b92db7b)
+  )
   (wire (pts (xy 256.54 153.67) (xy 256.54 156.21))
     (stroke (width 0) (type default))
     (uuid 2676d749-b030-4098-aa8b-762c890fd527)
@@ -1155,6 +851,10 @@
   (wire (pts (xy 62.23 99.06) (xy 67.31 99.06))
     (stroke (width 0) (type default))
     (uuid 2f943e0a-bda3-4ba5-929f-8846eade10cc)
+  )
+  (wire (pts (xy 157.48 130.81) (xy 157.48 140.97))
+    (stroke (width 0) (type default))
+    (uuid 31afaf0c-1a36-43cf-b6d4-a8f7523a1956)
   )
   (wire (pts (xy 114.3 104.14) (xy 116.84 104.14))
     (stroke (width 0) (type default))
@@ -1324,7 +1024,7 @@
     (stroke (width 0) (type default))
     (uuid 8783c1b9-8e06-43fe-9b8b-2db262881bf6)
   )
-  (wire (pts (xy 213.36 31.75) (xy 213.36 85.09))
+  (wire (pts (xy 213.36 36.83) (xy 213.36 85.09))
     (stroke (width 0) (type default))
     (uuid 87946278-2e06-46f5-92a4-ab362f693512)
   )
@@ -1364,6 +1064,10 @@
     (stroke (width 0) (type default))
     (uuid 995831ff-a7e2-43a2-aa7f-40e4a60c5a37)
   )
+  (wire (pts (xy 91.44 25.4) (xy 91.44 22.86))
+    (stroke (width 0) (type default))
+    (uuid 99b23df8-6445-42a2-98d6-2fd35111cc2e)
+  )
   (wire (pts (xy 236.22 139.7) (xy 176.53 139.7))
     (stroke (width 0) (type default))
     (uuid 9b0b87bd-c5ee-40d6-8299-1451bc7cb847)
@@ -1392,7 +1096,7 @@
     (stroke (width 0) (type default))
     (uuid ae6970ba-2cb3-4f3d-a161-36e3cfb7144c)
   )
-  (wire (pts (xy 209.55 27.94) (xy 222.25 27.94))
+  (wire (pts (xy 209.55 34.29) (xy 222.25 34.29))
     (stroke (width 0) (type default))
     (uuid af339167-a2e2-41d4-b9c7-25f1258a6c08)
   )
@@ -1435,6 +1139,10 @@
   (wire (pts (xy 161.29 50.8) (xy 161.29 66.04))
     (stroke (width 0) (type default))
     (uuid c0c41faa-fc9a-4dfb-96b0-4318a0b3e5c1)
+  )
+  (wire (pts (xy 160.02 134.62) (xy 160.02 140.97))
+    (stroke (width 0) (type default))
+    (uuid c1729dd8-21f6-4ba2-88a2-6f044ebe0185)
   )
   (wire (pts (xy 189.23 66.04) (xy 193.04 66.04))
     (stroke (width 0) (type default))
@@ -1544,7 +1252,7 @@
     (stroke (width 0) (type default))
     (uuid f7da7297-e700-4bd2-9b20-7640fa37df44)
   )
-  (wire (pts (xy 222.25 31.75) (xy 213.36 31.75))
+  (wire (pts (xy 222.25 36.83) (xy 213.36 36.83))
     (stroke (width 0) (type default))
     (uuid f8a55399-036e-4407-900e-53007b6a9356)
   )
@@ -1560,19 +1268,19 @@
   (symbol (lib_id "Device:C_Small") (at 245.11 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00762dd9-65a0-485b-8b57-d7c28e2a20bf)
-    (property "Reference" "C8" (at 247.65 142.2336 0)
+    (property "Reference" "C?" (at 247.65 142.2336 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nf" (at 247.65 144.7736 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 245.11 143.51 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 245.11 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "490-3167-2-ND" (at 245.11 143.51 0)
+    (property "Digikey" "" (at 245.11 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7b3b2437-c72a-4189-82eb-1fbb5b41a8a7))
@@ -1580,10 +1288,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "C8") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1592,7 +1300,7 @@
   (symbol (lib_id "power:GND") (at 245.11 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0420535d-a701-4929-9428-8c296932d29d)
-    (property "Reference" "#PWR057" (at 245.11 163.83 0)
+    (property "Reference" "#PWR014" (at 245.11 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 162.56 0)
@@ -1608,10 +1316,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1644,19 +1352,19 @@
   (symbol (lib_id "Device:R") (at 266.7 124.46 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 176e759c-2f02-4ae4-8907-5b68e1e87f11)
-    (property "Reference" "R5" (at 269.24 123.19 0)
+    (property "Reference" "R8" (at 269.24 123.19 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K" (at 269.24 125.73 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 268.478 124.46 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 268.478 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.7 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "1276-3431-2-ND" (at 266.7 124.46 0)
+    (property "Digikey" "" (at 266.7 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1e1c7b90-ecbe-4d8b-a9c5-cbb819f76bfb))
@@ -1664,10 +1372,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "R5") (unit 1)
+          (reference "R8") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1676,7 +1384,7 @@
   (symbol (lib_id "power:GND") (at 87.63 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d3b7cc1-353a-4408-86ea-df74593263c5)
-    (property "Reference" "#PWR027" (at 87.63 80.01 0)
+    (property "Reference" "#PWR07" (at 87.63 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 78.74 0)
@@ -1692,7 +1400,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1724,7 +1432,7 @@
           (reference "SW1") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "SW1") (unit 1)
+          (reference "SW?") (unit 1)
         )
       )
     )
@@ -1733,7 +1441,7 @@
   (symbol (lib_id "power:GND") (at 193.04 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3909bbbb-b0da-4009-bc1d-660f734b2452)
-    (property "Reference" "#PWR031" (at 193.04 74.93 0)
+    (property "Reference" "#PWR09" (at 193.04 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 73.66 0)
@@ -1749,7 +1457,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1758,7 +1466,7 @@
   (symbol (lib_id "Device:R") (at 252.73 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e917ee6-6f19-49ea-b2b0-20b482f4cc65)
-    (property "Reference" "R4" (at 252.73 125.73 90)
+    (property "Reference" "R7" (at 252.73 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 252.73 128.27 90)
@@ -1778,10 +1486,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "R4") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1790,7 +1498,7 @@
   (symbol (lib_id "power:GND") (at 137.16 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f0b0b7d-2382-41a1-8f52-6deeed9fa9c7)
-    (property "Reference" "#PWR030" (at 137.16 72.39 0)
+    (property "Reference" "#PWR08" (at 137.16 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 71.12 0)
@@ -1806,7 +1514,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1815,7 +1523,7 @@
   (symbol (lib_id "power:GND") (at 256.54 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fb4d959-7a6b-4224-8c5d-aee4afa84cc9)
-    (property "Reference" "#PWR058" (at 256.54 162.56 0)
+    (property "Reference" "#PWR015" (at 256.54 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 161.29 0)
@@ -1831,10 +1539,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1843,7 +1551,7 @@
   (symbol (lib_id "power:GND") (at 38.1 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 534eae37-9426-4927-b960-5e7509b7965a)
-    (property "Reference" "#PWR036" (at 38.1 170.18 0)
+    (property "Reference" "#PWR01" (at 38.1 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 168.91 0)
@@ -1859,35 +1567,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR036") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "drip-irrigation-sys-cc:UJ2-AV-4-SMT-TR") (at 31.75 132.08 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5be388f8-5a91-4ed3-b0a4-275f50801f7a)
-    (property "Reference" "J8" (at 22.86 124.46 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "UJ2-AV-4-SMT-TR" (at 22.86 127 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "CONN4X1_UJ2-AV-4-SMT-TR_CUD" (at 31.75 132.08 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "UJ2-AV-4-SMT-TR" (at 31.75 132.08 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (pin "1" (uuid b3087117-140b-4312-819e-b6702c158f30))
-    (pin "2" (uuid a32a269f-c858-4598-8766-735e6bcac98a))
-    (pin "3" (uuid 6c7dbf9b-787a-46fa-ab58-25fed4dfc35d))
-    (pin "4" (uuid 4f960647-eace-4391-a1e2-87824ddbda05))
-    (instances
-      (project "drip-irrigation-sys-cc"
-        (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "J8") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1896,7 +1576,7 @@
   (symbol (lib_id "power:GND") (at 40.64 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f884fbb-cc89-453b-a5cc-7b7b90f5792b)
-    (property "Reference" "#PWR037" (at 40.64 151.13 0)
+    (property "Reference" "#PWR02" (at 40.64 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 149.86 0)
@@ -1912,7 +1592,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1944,7 +1624,7 @@
           (reference "SW3") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "SW3") (unit 1)
+          (reference "SW?") (unit 1)
         )
       )
     )
@@ -1953,7 +1633,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 34.29 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5fe3e392-de38-4843-ad3e-bd4fd840c268)
-    (property "Reference" "J2" (at 36.83 26.67 0)
+    (property "Reference" "J1" (at 36.83 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PWR" (at 33.02 24.13 90)
@@ -1970,7 +1650,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1979,19 +1659,19 @@
   (symbol (lib_id "Device:R") (at 66.04 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 613d7bc5-ef3f-4ec6-8c8f-f83c3525e568)
-    (property "Reference" "R14" (at 66.04 63.5 90)
+    (property "Reference" "R1" (at 66.04 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330ohm" (at 66.04 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 66.04 71.628 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 66.04 71.628 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "2577-AS02FTE3300TR-ND" (at 66.04 69.85 0)
+    (property "Digikey" "" (at 66.04 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3bdfa68b-a21b-4503-b57f-4c36dd20bd09))
@@ -1999,7 +1679,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "R14") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2008,7 +1688,7 @@
   (symbol (lib_id "power:+5V") (at 53.34 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e980620-99f9-49eb-8fc0-1a5feba3a3bb)
-    (property "Reference" "#PWR038" (at 53.34 130.81 0)
+    (property "Reference" "#PWR03" (at 53.34 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 53.34 121.92 0)
@@ -2024,7 +1704,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2033,7 +1713,7 @@
   (symbol (lib_id "power:+5V") (at 245.11 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 814bc34c-022e-4968-a533-d236b6a68fa6)
-    (property "Reference" "#PWR060" (at 245.11 118.11 0)
+    (property "Reference" "#PWR?" (at 245.11 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 245.11 109.22 0)
@@ -2049,10 +1729,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2061,7 +1741,7 @@
   (symbol (lib_id "power:GND") (at 278.13 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82e07450-230e-4490-8bae-9c899f36b6b5)
-    (property "Reference" "#PWR061" (at 278.13 162.56 0)
+    (property "Reference" "#PWR018" (at 278.13 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 278.13 161.29 0)
@@ -2077,10 +1757,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2089,19 +1769,19 @@
   (symbol (lib_id "Device:R") (at 113.03 63.5 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85077736-a72d-47d5-8d9f-1334effe0b83)
-    (property "Reference" "R15" (at 113.03 57.15 90)
+    (property "Reference" "R2" (at 113.03 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330ohm" (at 113.03 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 113.03 61.722 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 113.03 61.722 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 113.03 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "2577-AS02FTE3300TR-ND" (at 113.03 63.5 0)
+    (property "Digikey" "" (at 113.03 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8b370594-7231-4ed6-9c5b-0365ca632ac2))
@@ -2109,7 +1789,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "R15") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2118,19 +1798,19 @@
   (symbol (lib_id "Device:LED") (at 125.73 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c449b77-6b8f-402d-a9de-ff312634b056)
-    (property "Reference" "D8" (at 127.3175 55.88 0)
+    (property "Reference" "D2" (at 127.3175 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STATUS_LED" (at 127.3175 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 125.73 63.5 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 125.73 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "67-SML-LXFT0603GC-TR-ND" (at 125.73 63.5 0)
+    (property "Digikey" "" (at 125.73 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ea8a4945-e885-4bb0-ab5f-73279a91b394))
@@ -2138,7 +1818,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "D8") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2147,7 +1827,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 247.65 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91bb1907-ac35-4323-85cb-eaef35588654)
-    (property "Reference" "J1" (at 243.84 100.33 0)
+    (property "Reference" "J5" (at 243.84 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RELAY" (at 250.19 92.71 90)
@@ -2165,7 +1845,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "J1") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2197,7 +1877,7 @@
           (reference "SW2") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "SW2") (unit 1)
+          (reference "SW?") (unit 1)
         )
       )
     )
@@ -2206,19 +1886,19 @@
   (symbol (lib_id "Device:R") (at 171.45 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3aa8665-b734-473c-a35f-15d045de2442)
-    (property "Reference" "R16" (at 171.45 59.69 90)
+    (property "Reference" "R3" (at 171.45 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330ohm" (at 171.45 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 171.45 67.818 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 171.45 67.818 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "2577-AS02FTE3300TR-ND" (at 171.45 66.04 0)
+    (property "Digikey" "" (at 171.45 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ad89ff67-7e77-48f5-8711-4935a17eee82))
@@ -2226,7 +1906,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "R16") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2235,13 +1915,13 @@
   (symbol (lib_id "Connector_Generic:Conn_02x01") (at 102.87 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5843f3b-351d-48f0-ba45-6a8e42774fc9)
-    (property "Reference" "J9" (at 104.14 179.07 0)
+    (property "Reference" "J4" (at 104.14 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x01" (at 104.14 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" (at 102.87 185.42 0)
+    (property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" (at 102.87 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.87 185.42 0)
@@ -2252,7 +1932,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "J9") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2261,19 +1941,19 @@
   (symbol (lib_id "Device:C") (at 38.1 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba32f6ac-c79d-4456-87fc-9f8268b2589e)
-    (property "Reference" "C19" (at 41.91 153.67 0)
+    (property "Reference" "C1" (at 41.91 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nf" (at 41.91 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 39.0652 158.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 39.0652 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "5440-FN31X103K500PXGTR-ND" (at 38.1 154.94 0)
+    (property "Digikey" "" (at 38.1 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 002436d3-1f2f-428b-8b28-b3812e2307ba))
@@ -2281,7 +1961,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "C19") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2290,7 +1970,7 @@
   (symbol (lib_id "power:+5V") (at 72.39 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc767a89-3302-4ff8-92fc-a6cf74305aa5)
-    (property "Reference" "#PWR035" (at 72.39 101.6 0)
+    (property "Reference" "#PWR06" (at 72.39 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 72.39 110.49 0)
@@ -2306,7 +1986,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2339,7 +2019,7 @@
   (symbol (lib_id "power:GND") (at 67.31 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c91057de-9224-4813-9a17-e41f4d252e8c)
-    (property "Reference" "#PWR034" (at 67.31 111.76 0)
+    (property "Reference" "#PWR05" (at 67.31 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 110.49 0)
@@ -2355,7 +2035,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2388,19 +2068,19 @@
   (symbol (lib_id "Device:LED") (at 185.42 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd2f0c0b-be96-47a1-9275-8124ff136e61)
-    (property "Reference" "D7" (at 187.0075 58.42 0)
+    (property "Reference" "D3" (at 187.0075 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ERROR_LED" (at 187.0075 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_1206_3216Metric" (at 185.42 66.04 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 185.42 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "754-AP3216IDTR-ND" (at 185.42 66.04 0)
+    (property "Digikey" "" (at 185.42 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9d445dfc-e797-40ee-b27c-1559235294ac))
@@ -2408,7 +2088,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "D7") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2417,19 +2097,19 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ceed2ece-4ec2-4fb5-b2ba-1fc4e410c0e3)
-    (property "Reference" "C7" (at 215.9 142.2336 0)
+    (property "Reference" "C?" (at 215.9 142.2336 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nf" (at 215.9 144.7736 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 213.36 143.51 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 213.36 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "490-3167-2-ND" (at 213.36 143.51 0)
+    (property "Digikey" "" (at 213.36 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c337cc4e-9b67-4b0b-afb4-d954955aa14f))
@@ -2437,10 +2117,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "C7") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "C7") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2449,7 +2129,7 @@
   (symbol (lib_id "power:+5V") (at 213.36 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d628efb1-a34d-4d14-bd34-34988174a5da)
-    (property "Reference" "#PWR059" (at 213.36 118.11 0)
+    (property "Reference" "#PWR?" (at 213.36 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 213.36 109.22 0)
@@ -2465,10 +2145,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2477,19 +2157,19 @@
   (symbol (lib_id "Device:C_Small") (at 266.7 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6cd97ca-8a54-4c6c-8a1e-908653e268d7)
-    (property "Reference" "C9" (at 269.24 142.2336 0)
+    (property "Reference" "C?" (at 269.24 142.2336 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nf" (at 269.24 144.7736 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 266.7 143.51 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 266.7 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.7 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "490-3167-2-ND" (at 266.7 143.51 0)
+    (property "Digikey" "" (at 266.7 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d8b104c-c1c5-4291-aca8-60ce70237fcf))
@@ -2497,10 +2177,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "C9") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2509,7 +2189,7 @@
   (symbol (lib_id "power:+5V") (at 59.69 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d78402f7-5d1b-48e6-8bfb-e14c021a6240)
-    (property "Reference" "#PWR026" (at 59.69 67.31 0)
+    (property "Reference" "#PWR04" (at 59.69 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 59.69 58.42 0)
@@ -2525,7 +2205,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2534,19 +2214,19 @@
   (symbol (lib_id "Device:R") (at 245.11 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d82c587c-5f2a-4d43-87b1-a24cbd5f5f39)
-    (property "Reference" "R3" (at 247.65 121.92 0)
+    (property "Reference" "R6" (at 247.65 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K" (at 247.65 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 246.888 123.19 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 246.888 123.19 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "1276-3431-2-ND" (at 245.11 123.19 0)
+    (property "Digikey" "" (at 245.11 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 63098ba0-42a8-4c9d-bde4-fa7b8a7aebdc))
@@ -2554,10 +2234,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "R3") (unit 1)
+          (reference "R6") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2566,19 +2246,19 @@
   (symbol (lib_id "Device:LED") (at 80.01 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da80dcc5-5bc7-43fb-97be-457b351014c6)
-    (property "Reference" "D9" (at 81.5975 62.23 0)
+    (property "Reference" "D1" (at 81.5975 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "POWER_LED" (at 81.5975 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 80.01 69.85 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 80.01 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 80.01 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "67-SML-LXFT0603GC-TR-ND" (at 80.01 69.85 0)
+    (property "Digikey" "" (at 80.01 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5bb824d8-ed1e-4616-9bec-86d4660fb94e))
@@ -2586,7 +2266,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "D9") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2595,7 +2275,7 @@
   (symbol (lib_id "power:GND") (at 266.7 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4b46cb6-0c8d-4143-bdeb-d682c0a6d75e)
-    (property "Reference" "#PWR060" (at 266.7 163.83 0)
+    (property "Reference" "#PWR017" (at 266.7 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 162.56 0)
@@ -2611,10 +2291,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2623,7 +2303,7 @@
   (symbol (lib_id "Device:R") (at 224.79 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e503e76e-8536-4d1b-9aed-4d46b3c61ccb)
-    (property "Reference" "R2" (at 224.79 125.73 90)
+    (property "Reference" "R5" (at 224.79 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 224.79 128.27 90)
@@ -2643,10 +2323,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "R2") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2655,7 +2335,7 @@
   (symbol (lib_id "power:+5V") (at 266.7 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e887552a-a085-4c69-b791-b1cc900b3ba8)
-    (property "Reference" "#PWR061" (at 266.7 116.84 0)
+    (property "Reference" "#PWR?" (at 266.7 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 266.7 107.95 0)
@@ -2671,10 +2351,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2683,7 +2363,7 @@
   (symbol (lib_id "Connector:USB_A") (at 40.64 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed8f1bcd-9cd2-4e4b-96e1-deb5052eb4d8)
-    (property "Reference" "J4" (at 40.64 121.92 0)
+    (property "Reference" "J2" (at 40.64 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_A" (at 40.64 124.46 0)
@@ -2703,7 +2383,7 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "J4") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2712,19 +2392,19 @@
   (symbol (lib_id "Device:R") (at 213.36 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef6729f0-e07a-45db-b133-273253593edd)
-    (property "Reference" "R1" (at 215.9 121.92 0)
+    (property "Reference" "R4" (at 215.9 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K" (at 215.9 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 215.138 123.19 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 215.138 123.19 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "1276-3431-2-ND" (at 213.36 123.19 0)
+    (property "Digikey" "" (at 213.36 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 93e7a511-3151-4cd1-9960-d02690dfd55d))
@@ -2732,10 +2412,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2744,7 +2424,7 @@
   (symbol (lib_id "power:GND") (at 213.36 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f12631fe-b165-4d9b-9eb4-c39679d62b06)
-    (property "Reference" "#PWR054" (at 213.36 162.56 0)
+    (property "Reference" "#PWR011" (at 213.36 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 161.29 0)
@@ -2760,10 +2440,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2772,7 +2452,7 @@
   (symbol (lib_id "power:GND") (at 228.6 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f28fd933-b997-452a-935c-d31b72f568b3)
-    (property "Reference" "#PWR055" (at 228.6 162.56 0)
+    (property "Reference" "#PWR012" (at 228.6 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 161.29 0)
@@ -2788,10 +2468,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2851,7 +2531,7 @@
   (symbol (lib_id "Device:R") (at 274.32 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fab4a2d2-3804-4990-9dcc-58f5d4b7ca8c)
-    (property "Reference" "R6" (at 274.32 125.73 90)
+    (property "Reference" "R9" (at 274.32 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 274.32 128.27 90)
@@ -2871,10 +2551,10 @@
     (instances
       (project "drip-irrigation-sys-cc"
         (path "/41708c1e-19b2-4374-83f2-108076d82b45"
-          (reference "R6") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/41708c1e-19b2-4374-83f2-108076d82b45/c9797de2-f042-4c0a-b92d-0b1dd104a99b"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2923,13 +2603,13 @@
     (property "Sheetfile" "rs232-rs485.kicad_sch" (at 137.16 172.0346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "RS485_B" bidirectional (at 171.45 147.32 0)
+    (pin "USART2_RX" input (at 160.02 140.97 90)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 375d5bca-9361-43fb-b1ef-df78c8c6cddf)
+      (uuid abbebfe3-7da5-40f9-9ea4-51b39f367106)
     )
-    (pin "RS485_A" bidirectional (at 171.45 152.4 0)
+    (pin "USART2_TX" input (at 157.48 140.97 90)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 365d919b-a64d-40f1-be99-344d5edb9980)
+      (uuid 7a15b8d2-0945-40ad-a4a2-5e3a0084f510)
     )
     (instances
       (project "drip-irrigation-sys-cc"
@@ -3080,17 +2760,17 @@
     (property "Sheetfile" "gsm_module.kicad_sch" (at 222.25 52.6546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "5V_INPUT" input (at 222.25 22.86 180)
+    (pin "UART_TX" input (at 222.25 36.83 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e4120fc8-4764-452f-a7e0-84a8fc14dae3)
+      (uuid c9d81298-6329-4082-adcf-2d24725ad24e)
     )
-    (pin "uart1_rx" input (at 222.25 27.94 180)
+    (pin "UART_RX" input (at 222.25 34.29 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 30edffc6-a44c-41a9-9c60-b7d61a363e0c)
+      (uuid 415d4875-37bf-4895-9858-7cbd57c11da4)
     )
-    (pin "uart1_tx" input (at 222.25 31.75 180)
+    (pin "5V_Input" input (at 222.25 22.86 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid c02da0c1-a271-45b6-a913-3647a0fde868)
+      (uuid 4da8ec92-efb4-420b-9d81-78c1077043fe)
     )
     (instances
       (project "drip-irrigation-sys-cc"
@@ -3157,12 +2837,12 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 0313c2ab-401b-4c62-9999-8a54d44e9bcd)
     )
-    (pin "USART2_TX" output (at 171.45 125.73 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (pin "USART2_TX" output (at 157.48 130.81 270)
+      (effects (font (size 1.27 1.27)) (justify left))
       (uuid afe3d463-3380-4bee-8b21-0f3f9d3a6c91)
     )
-    (pin "USART2_RX" input (at 171.45 128.27 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (pin "USART2_RX" input (at 161.29 130.81 270)
+      (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6dd2d83c-c1fe-4196-ba3b-b8a7dfe73cf3)
     )
     (pin "SPI1_SCK" output (at 157.48 86.36 90)
