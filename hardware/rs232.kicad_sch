@@ -655,7 +655,7 @@
     (property "Value" "MAX3222EWN_T" (at 210.82 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MAX3222EWN_T:SOIC127P1032X265-18N" (at 210.82 67.31 0)
+    (property "Footprint" "drip-irrigation-sys-cc:MAX3222EWN+T" (at 210.82 67.31 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 210.82 67.31 0)
