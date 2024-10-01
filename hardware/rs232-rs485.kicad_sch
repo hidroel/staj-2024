@@ -589,7 +589,7 @@
     (property "Datasheet" "~" (at 167.64 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "311-1343-6-ND" (at 167.64 82.55 0)
+    (property "Digikey" "3372-0805B104K500BDTR-ND" (at 167.64 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e86f8536-c3e6-4d67-96c8-eb105367376e))
